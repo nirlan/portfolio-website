@@ -1,0 +1,236 @@
+body {
+  background-color: #e8eaf6;
+  font-family: "Martel Sans";
+}
+
+.container-fluid {
+  background-color: #3f51b5;
+}
+
+/*
+ * NAVBAR
+ */
+
+.bg-navbar-custom {
+  background-color: #303f9f;
+}
+
+.logo-img {
+  width: 3rem;
+}
+
+/*
+ * HEADER
+ */
+
+.header__title {
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.header__subtitle {
+  color: #fff;
+}
+
+.header__text {
+  color: #fff;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  padding: 0.7rem 0.75rem 0.5rem;
+}
+
+/*
+ * MY WORK
+ */
+
+.mywork:before {
+  display: block;
+  content: " ";
+  margin-top: -5rem;
+  height: 5rem;
+  visibility: hidden;
+}
+
+.mywork__title {
+  padding-top: 3rem;
+  margin-bottom: 0;
+  color: #3f51b5;
+}
+
+.mywork__name {
+  color: #3f51b5;
+}
+
+.mywork__link:link,
+.mywork__link:visited {
+  text-decoration: none;
+}
+
+.mywork__name:hover,
+.mywork__name:active {
+  text-decoration: line-through;
+  color: #ffc107;
+  transition: all 0.3s ease-in-out;
+}
+/*
+ * ABOUT ME
+ */
+
+.aboutme:before {
+  display: block;
+  content: " ";
+  margin-top: -6rem;
+  height: 6rem;
+  visibility: hidden;
+}
+
+.aboutme__title {
+  padding-top: 3rem;
+  color: #3f51b5;
+}
+
+/*
+ * MY SKILLS
+ */
+
+.myskills__title {
+  padding-top: 3rem;
+  color: #3f51b5;
+}
+
+.progress {
+  display: block;
+  font-size: 1.2rem;
+  line-height: 3.5rem;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.progress-bar {
+  height: 1.5rem;
+  line-height: 1.7rem;
+  text-align: right;
+  padding-right: 0.8rem;
+}
+
+.myskills__item-w-90 {
+  width: 90%;
+}
+
+/*
+ * CONTACT INFO
+ */
+
+ .contact-info:before {
+   display: block;
+   content: " ";
+   margin-top: -6rem;
+   height: 6rem;
+   visibility: hidden;
+ }
+
+.contact-info__title {
+  color: #fff;
+}
+
+.contact-info__text {
+  padding-top: 2.5rem;
+  color: #fff;
+}
+
+.contact-info__email-text {
+  color: #fff;
+}
+
+.contact-info__email-link:link,
+.contact-info__email-link:visited {
+  text-decoration: none;
+}
+
+.contact-info__email-link:hover,
+.contact-info__email-link:active {
+  text-decoration: line-through;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-info__social-list {
+  font-size: 3.3rem;
+}
+
+.contact-info__list-item {
+  list-style: none;
+}
+
+.contact-info__social-link:link,
+.contact-info__social-link:visited,
+.contact-info__social-link:hover,
+.contact-info__social-link:active {
+  text-decoration: none;
+  color: #fff;
+}
+
+.copyright {
+  color: #fff;
+  opacity: 0.5;
+}
+
+/*
+ * MEDIA QUERIES
+ */
+
+@media screen and (max-width: 767px) {
+  .header__title {
+    font-size: 2.7rem;
+  }
+  .header__subtitle {
+    font-size: 1.8rem;
+  }
+  .mywork__title,
+  .aboutme__title,
+  .myskills__title,
+  .contact-info__title {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 766px) {
+  .logo-img {
+    width: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .aboutme__text {
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header {
+    min-height: 720px;
+  }
+  .header__title {
+    margin-top: 8rem;
+    margin-bottom: 3.5rem;
+  }
+  .header__text {
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+    padding-left: 13rem;
+    padding-right: 13rem;
+  }
+  .header__button {
+    margin-top: 5rem;
+  }
+  .aboutme__text {
+    max-width: 60%;
+    padding-left: 1.5rem;
+  }
+  .mywork__item {
+    width: 50%;
+    padding: 0 1rem;
+  }
+}
